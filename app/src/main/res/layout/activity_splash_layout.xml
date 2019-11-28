@@ -6,5 +6,7 @@
     android:background="@android:color/white"
     android:id="@+id/logo"
     android:padding="84dp"
-    android:src="@drawable/sattelite_logo"
-    tools:context=".splash_layout" />
+    android:src="@drawable/satellite_logo"
+    tools:context=".splash_layout"
+
+    />

@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_signup">
+    tools:context=".activity_signup"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:layout_marginTop="80dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP AS ??"
+        android:gravity="center"
+        android:textColor="#ba12bf"
+        android:textSize="44sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDEATOR"
+        android:background="@drawable/custom_button"
+        android:layout_margin="40dp"
+        android:id="@+id/button_inventor"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INVESTOR"
+        android:background="@drawable/custom_button"
+        android:layout_margin="40dp"
+        android:id="@+id/button_investor"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

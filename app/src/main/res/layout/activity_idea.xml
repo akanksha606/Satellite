@@ -4,11 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".idea">
-     <view class="androidx.recyclerview.widget.RecyclerView"
+    tools:context=".idea"
+    >
+     <TextView
+         android:layout_width="match_parent"
          android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:id="@+id/recycler_view">
+         android:text="Projects"
+         android:textSize="44sp"
+         android:id="@+id/project_title"
+     android:textColor="#ba12bf"
+         android:gravity="center_horizontal"/>
+     <androidx.recyclerview.widget.RecyclerView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/recyclerView"
+         android:layout_below="@+id/project_title"
 
-     </view>
+         >
+
+     </androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>

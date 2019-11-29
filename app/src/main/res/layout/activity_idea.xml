@@ -11,9 +11,11 @@
          android:layout_height="wrap_content"
          android:text="Projects"
          android:textSize="44sp"
+         android:textStyle="bold"
          android:id="@+id/project_title"
      android:textColor="#ba12bf"
-         android:gravity="center_horizontal"/>
+         android:gravity="center_horizontal"
+         android:padding="12dp"/>
      <androidx.recyclerview.widget.RecyclerView
          android:layout_width="match_parent"
          android:layout_height="match_parent"

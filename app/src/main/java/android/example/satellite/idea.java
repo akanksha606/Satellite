@@ -41,20 +41,20 @@ public class idea extends AppCompatActivity {
                 "Name 4","Updated 35 minutes ago"
         ));
         projectList.add(new Project(
-                "Satellite_project_1",
-                "Name 1","Updated 15 minutes ago"
+                "Satellite_project_5",
+                "Name 5","Updated 15 minutes ago"
         ));
         projectList.add(new Project(
-                "Satellite_project_2",
-                "Name 2","Updated 20 minutes ago"
+                "Satellite_project_6",
+                "Name 6","Updated 20 minutes ago"
         ));
         projectList.add(new Project(
-                "Satellite_project_3",
+                "Satellite_project_7",
                 "Name 3","Updated 22 minutes ago"
         ));
         projectList.add(new Project(
-                "Satellite_project_4",
-                "Name 4","Updated 35 minutes ago"
+                "Satellite_project_7",
+                "Name 7","Updated 35 minutes ago"
         ));
         adapter=new ProjectAdapter(this,projectList);
         recyclerView.setAdapter(adapter);
